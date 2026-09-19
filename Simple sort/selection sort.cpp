@@ -27,7 +27,7 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int data[] = {64, 25, 12, 22, 11, 90, 34};
+    int data[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(data) / sizeof(data[0]);
 
     cout << "Sebelum Selection Sort: ";
