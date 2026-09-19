@@ -8,7 +8,7 @@ int main() {
     cout << "Masukkan kalimat: ";
     getline(cin, kalimat);
 
-    bool awalKata = true; // marker apakah karakter saat ini adalah awal kata
+    bool awalKata = true; // penanda apakah karakter saat ini adalah awal kata
 
     for (int i = 0; i < kalimat.length(); i++) {
         char c = kalimat[i];

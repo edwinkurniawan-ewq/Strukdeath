@@ -14,7 +14,7 @@ int main() {
     // Membandingkan karakter dari depan dan belakang secara bersamaan
     for (int i = 0; i < n / 2; i++) {
         if (kata[i] != kata[n - 1 - i]) {
-            isPalindrom = false; // Jika ada 1 pasang karakter yang beda, bukan palindrom
+            isPalindrom = false; // Jika ada 1 pasang karakter yang beda,berarti bukan palindrom
             break;
         }
     }

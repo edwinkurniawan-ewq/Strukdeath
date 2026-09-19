@@ -22,8 +22,8 @@ int main() {
     size_t posisiSpasi = namaLengkap.find(' ');
 
     if (posisiSpasi != string::npos) {
-        // Ambil substring nama depan saja (setelah gelar sampai spasi berikutnya)
-        // Cari spasi kedua setelah gelar untuk mengekstrak nama depan murni
+        // Ambil substring nama depan (setelah gelar sampai spasi berikutnya)
+        // Cari spasi kedua setelah gelar untuk mengekstrak nama depan 
         size_t spasiKedua = namaLengkap.find(' ', posisiSpasi + 1);
         string extractedNamaDepan = namaLengkap.substr(posisiSpasi + 1, spasiKedua - (posisiSpasi + 1));
         

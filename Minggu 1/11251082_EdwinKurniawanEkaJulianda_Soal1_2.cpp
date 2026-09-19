@@ -12,7 +12,6 @@ int main() {
     }
     cout << endl;
 
-    // logic reverse
     // Menukar elemen ke-i dari depan dengan elemen ke-(n - 1 - i) dari belakang
     for (int i = 0; i < n / 2; i++) {
         int temp = arr[i];
